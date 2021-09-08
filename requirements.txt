@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 keras
 tensorflow
 pillow
@@ -6,3 +7,12 @@ numpy
 voila
 pyheif
 whatimage
+=======
+Keras 
+Keras-Preprocessing 
+numpy 
+tensorflow
+voila
+ipywidgets
+pillow
+>>>>>>> b71c519c993f95f75f90c2568cad0749b543ebad
