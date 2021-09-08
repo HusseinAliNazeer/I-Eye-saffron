@@ -3,4 +3,6 @@ tensorflow
 pillow
 ipywidgets
 numpy
-
+voila
+pyheif
+whatimage
