@@ -1,1 +1,9 @@
-https://mybinder.org/v2/gh/husseinmleng/I-Eye-saffron/HEAD?urlpath=%2Fvoila%2Frender%2Fvoila_test.ipynb
+https://bit.ly/3BIo1C2
+
+fig, axes = plt.subplots(nrows=3,ncols=4)
+for i in range(12):
+  axes[i].imshow(batch[0][i])
+
+for ax in axes:
+  ax.axis('off')
+plt.show()
