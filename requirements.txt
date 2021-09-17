@@ -6,3 +6,5 @@ numpy
 voila
 pyheif
 whatimage
+matplotlib
+opencv-python
