@@ -9,3 +9,4 @@ whatimage
 matplotlib
 opencv-python
 ipython
+streamlit
