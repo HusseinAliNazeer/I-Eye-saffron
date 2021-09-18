@@ -8,5 +8,4 @@ pyheif
 whatimage
 matplotlib
 opencv-python
-io
 ipython
