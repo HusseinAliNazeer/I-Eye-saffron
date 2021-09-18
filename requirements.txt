@@ -1,10 +1,6 @@
 keras
 tensorflow==2.6.0
 pillow
-ipywidgets
 numpy
-voila
-matplotlib
-opencv-python
-ipython
+python
 streamlit

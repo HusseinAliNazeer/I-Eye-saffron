@@ -8,7 +8,6 @@ from IPython import display
 import whatimage
 import pyheif
 import tensorflow as tf
-import cv2
 from keras.preprocessing import image
 import keras
 import matplotlib.pyplot as plt
