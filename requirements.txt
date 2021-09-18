@@ -4,8 +4,6 @@ pillow
 ipywidgets
 numpy
 voila
-pyheif
-whatimage
 matplotlib
 opencv-python
 ipython
