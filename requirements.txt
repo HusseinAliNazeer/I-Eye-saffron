@@ -2,5 +2,4 @@ keras
 tensorflow==2.6.0
 pillow
 numpy
-python
 streamlit
