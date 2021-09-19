@@ -2,7 +2,6 @@ keras
 tensorflow-cpu
 pillow
 numpy
-streamlit
 voila
 ipywidgets
 matplotlib
