@@ -5,3 +5,4 @@ numpy
 streamlit
 voila
 ipywidgets
+matplotlib
