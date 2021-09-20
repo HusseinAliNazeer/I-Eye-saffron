@@ -5,3 +5,6 @@ numpy
 voila
 ipywidgets
 matplotlib
+whatimage
+pyheif
+opencv-python
