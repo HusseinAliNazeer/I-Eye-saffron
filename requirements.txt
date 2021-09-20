@@ -7,4 +7,3 @@ ipywidgets
 matplotlib
 whatimage
 pyheif
-opencv-python
