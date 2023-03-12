@@ -1,9 +1,9 @@
-keras
-tensorflow
+#keras
+#tensorflow
 pillow
 numpy
 voila
 ipywidgets
-matplotlib
+#matplotlib
 whatimage
 pyheif

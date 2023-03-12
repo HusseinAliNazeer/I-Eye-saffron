@@ -2,6 +2,8 @@ import io
 import argparse
 import os
 from PIL import Image
+import tensorflow
+from tensorflow import keras
 import numpy as np
 import pandas as pd
 import seaborn as sns
@@ -27,9 +29,9 @@ ap.add_argument("--load", help = "load the previously trianed model")
 ap.add_argument("--trainedModelPath", help = "the path for the previously trianed model")
 args = ap.parse_args()
 
-train_path = args.path + '\train'
-test_path = args.path + '\test'
-validation_path = args.path + '\val'
+train_path = args.path + '/train'
+test_path = args.path + '/test'
+validation_path = args.path + '/val'
 train_gen = ImageDataGenerator(shear_range=0.2,
                                rescale = 1./255,
                                zoom_range=[0.5,2.0],
@@ -38,6 +40,9 @@ train_gen = ImageDataGenerator(shear_range=0.2,
                                vertical_flip=True,
                                featurewise_center=True,
                                samplewise_center=True)
+print("train path is :",train_path)
+print("test path is :",test_path)
+print("val path is :",validation_path)
 
 train_data = train_gen.flow_from_directory(train_path,
                                             target_size=(224, 224),
@@ -74,7 +79,7 @@ es = EarlyStopping(monitor='val_accuracy',
 if args.load:
     mobile_net = load_model(args.trainedModel)
     print("Successful")
-if args.trian:
+if args.train:
 	base_model = MobileNetV2(input_shape=(224,224,3),
                           include_top=False)
 	#freeze the base model layers to train only top classifier
