@@ -1,4 +1,4 @@
-# Image Classification Model
+# The Saffrosystems ‘i-Eye®’
 This is a Python script for building a Convolutional Neural Network (CNN) for Fake Saffron Detection. The model uses transfer learning with the MobileNetV2 architecture to classify images into two categories. The script loads a dataset containing images in separate directories for training, testing, and validation.
 
 ## Usage
