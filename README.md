@@ -13,11 +13,14 @@ To use this script, you need to have Python 3 and the following libraries instal
 
 The script can be executed from the command line with the following arguments:
 
-```
+```bash
 --path: the path to the directory containing the training, testing, and validation data directories
 --train: to train the model on the dataset
 --load: to load a previously trained model for fine-tuning or prediction
+--epochs: This argument is optional and specifies the number of epochs to train the model.
+--ckpPath: This argument is optional and specifies path to save the best results of the model.
 ```
+
 
 ### Arguments
 `--path`
@@ -32,10 +35,10 @@ This argument is optional and specifies whether to train the model on the datase
 
 This argument is optional and specifies whether to load a previously trained model for fine-tuning or prediction. If specified, the script will load the model from the specified path. If not specified, the script will assume that a trained model is not being loaded.
 
-`epochs`
+`epochs`  
 This argument is optional and specifies the number of epochs to train the model.
 
-`ckpPath` 
+`ckpPath`   
 This argument is optional and specifies path to save the best results of the model.
 ## Data Preparation
 The data directory should be split into three directories: train, test, and val. Each directory should contain subdirectories for each class of images.
