@@ -14,11 +14,11 @@ To use this script, you need to have Python 3 and the following libraries instal
 The script can be executed from the command line with the following arguments:
 
 
-`--path: the path to the directory containing the training, testing, and validation data directories`
-`--train: to train the model on the dataset`
-`--load: to load a previously trained model for fine-tuning or prediction`
-`--epochs: This argument is optional and specifies the number of epochs to train the model.`
-`--ckpPath: This argument is optional and specifies path to save the best results of the model.`
+`--path: the path to the directory containing the training, testing, and validation data directories`  
+`--train: to train the model on the dataset`  
+`--load: to load a previously trained model for fine-tuning or prediction`  
+`--epochs: This argument is optional and specifies the number of epochs to train the model.`  
+`--ckpPath: This argument is optional and specifies path to save the best results of the model.`  
 
 
 ### Arguments
